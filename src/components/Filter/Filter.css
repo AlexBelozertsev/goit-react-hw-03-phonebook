@@ -1,0 +1,19 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0px auto 15px;
+}
+
+.Filter input {
+  font-size: 20px;
+  padding: 5px;
+  width: 70%;
+  border: 1px solid teal;
+  outline: none;
+  border-radius: 5px;
+}
+.Filter input:focus,
+.Filter input:hover {
+  box-shadow: 1px 2px 2px 1px rgb(0 128 128 / 0.6);
+}
